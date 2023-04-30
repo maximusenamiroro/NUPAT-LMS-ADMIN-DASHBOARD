@@ -1,0 +1,33 @@
+
+input:active, textarea:active{
+    border: none;
+    outline: none;
+     
+}
+input::placeholder{
+    color:rgba(0, 0, 0, 1);
+}
+
+.box{
+    background-color: rgba(3, 207, 214, 0.2);
+
+}
+
+.Btn{
+    background-color: #131E47;
+    margin-left: 20px;
+
+}
+
+
+.com{
+    color:#131E47;
+}
+
+.lit{
+    color:#1A48F0;
+}
+
+
+/* icons */
+

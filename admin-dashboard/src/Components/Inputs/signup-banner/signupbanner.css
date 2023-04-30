@@ -1,0 +1,7 @@
+.contain{
+    background-color: #131E47;
+}
+.picholder{
+    display: flex;
+    justify-content: center ;
+}

@@ -1,0 +1,78 @@
+/* Hide the dropdown content by default */
+
+  .dropClose{
+    height:1px;
+    overflow: hidden;
+  }
+  
+  /* Style the button that opens the dropdown */
+  .dropdown-btn {
+    background-color:transparent;
+    color: white;
+    padding: px;
+    font-size: 16px;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    /* padding-left: 2px; */
+  }
+  
+  /* Style the down arrow icon */
+  .arrow-down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 8px;
+    vertical-align: middle;
+    border-top: 6px solid white;
+    border-right: 6px solid transparent;
+    border-bottom: 0;
+    border-left: 6px solid transparent;
+    content: "";
+    margin-top: 12px;
+  }
+  
+  /* Style the up arrow icon */
+  .arrow-up {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 8px;
+    vertical-align: middle;
+    border-top: 0;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid white;
+    border-left: 6px solid transparent;
+    content: "";
+  }
+  
+  /* Style the dropdown content */
+  .dropdown-content a {
+    color: white;
+    padding-top: 22px;
+    padding-left: 6em;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 3px;
+  }
+  
+  /* Style the dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #03CFD6;
+    padding-left: 30px;
+    border-radius: 20px;
+  }
+  
+  /* Show the dropdown content when the button is clicked */
+  .dropdown-btn:focus + .dropdown-content,
+  .dropdown-content:focus-within {
+    display: block;
+  }
+  
+  /* Rotate the arrow icon when the dropdown is open */
+  .dropdown-btn:focus .arrow-down,
+  .dropdown-content:focus-within .arrow-down {
+    transform: rotate(180deg);
+  }
+  
