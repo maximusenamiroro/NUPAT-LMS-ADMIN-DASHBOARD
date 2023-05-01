@@ -5,13 +5,6 @@ import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
-// import Messageicon from "../Components/Assets/img/message.svg";
-// import Coursepic from "../Components/Assets/img/coursepic.png";
-// import Moreicon from "../Components/Assets/Icon/moreicon.png";
-// import Hierarchy from "../Components/Assets/Icon/hierarchy.png";
-// import Module from "../Components/Assets/Icon/Module.png";
-// import Add from "../Components/Assets/Icon/Add.png";
-// import Clock from "../Components/Assets/Icon/clock.png";
 import Sortt from "../Components/Assets/Icon/sortt.png";
 import CoursePorps from "../Components/Props/CoursePorps";
 

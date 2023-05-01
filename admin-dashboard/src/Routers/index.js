@@ -7,6 +7,7 @@ import {
   SharedLayout,
   Task,
   Notification,
+  CoursePerformance
 } from "../Pages/index";
 
 
@@ -34,6 +35,11 @@ export default function Routes() {
             {
               path: "/dashboard",
               element: <Dashboard />,
+            },
+
+            {
+              path: "/courseperformance",
+              element: <CoursePerformance/>,
             },
            
             {
