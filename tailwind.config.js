@@ -13,7 +13,7 @@ module.exports = {
       'lg': {'max': '1023px'},
       // => @media (max-width: 1023px) { ... }
 
-      'md': {'max': '767px'},
+      'md': {'max': '840px'},
       // => @media (max-width: 767px) { ... }
 
       'sm': {'max': '639px'},
@@ -24,6 +24,7 @@ module.exports = {
     square:{
       width: "20%"
     },
+
     extend: {
       colors: {
         primary: "#131E47 ",
@@ -38,7 +39,13 @@ module.exports = {
         noneText:"#219653",
         redoText:"#131E47"
       },
+      text:{
+        '3xl': "2em",
+        '4xl':'20px',
+        '5xl': '18rem',
+       },
     },
   },
+  plugins: [],
 };
   

@@ -12,27 +12,30 @@ export default function SelectIndicator() {
     
     <Box>
     <InputLabel sx={{
-        marginLeft: "11px"
+        marginLeft: "11px",
+        borderColor: "#121212",
     }} htmlFor="formatted-text-mask-input">Number of Modules </InputLabel>
     <Box
       sx={{
         display: 'flex',
         alignItems: 'center',
+        
         marginBottom: '25px',
         '& > :not(style)': { m: 1},
       }}
     >
-         <TextField fullWidth label="How many Modules is this course divided into" id="fullWidth" />
+         <TextField fullWidth label ="How many Modules is this course divided into" id="fullWidth" />
     </Box>
 
     <Select
-      placeholder="Select a pet…"
+      placeholder=" Add to Module  ( The content will be placed in this Module)"
       indicator={<KeyboardArrowDown />}
       sx={{
         marginLeft: "10px",
         width: "98.3%",
         height: "60px",
         marginBottom: "27px",
+        borderColor: "#121212",
         [`& .${selectClasses.indicator}`]: {
           transition: '0.2s',
           [`&.${selectClasses.expanded}`]: {
@@ -41,10 +44,10 @@ export default function SelectIndicator() {
         },
       }}
     >
-      <Option value="dog">Dog</Option>
-      <Option value="cat">Cat</Option>
-      <Option value="fish">Fish</Option>
-      <Option value="bird">Bird</Option>
+      <Option value="dog">Lesson 1</Option>
+      <Option value="cat">Lesson 2</Option>
+      <Option value="fish">Lesson 3</Option>
+      <Option value="bird">Lesson 4</Option>
     </Select>
 
 
@@ -56,6 +59,7 @@ export default function SelectIndicator() {
         display: 'flex',
         alignItems: 'center',
         marginBottom: '25px',
+        borderColor: "#121212",
         '& > :not(style)': { m: 1},
       }}
     >

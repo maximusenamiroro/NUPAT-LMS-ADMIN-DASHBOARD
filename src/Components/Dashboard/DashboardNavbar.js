@@ -53,7 +53,7 @@ const DashboardNavbar = () => {
         <ThemeProvider theme={Body}>
           <Box
             sx={{
-              width: "20%",
+              width: "21%",
               bgcolor: "#131E47",
               display: "flex",
               flexDirection: "column",
@@ -131,7 +131,7 @@ const DashboardNavbar = () => {
                     <ListItemText>Course</ListItemText>
                   </ListItemButton>
                 </Link>
-                <Link to="/community">
+                <Link to="/Task">
                   <ListItemButton
                     sx={{
                       color: "white",
@@ -146,10 +146,10 @@ const DashboardNavbar = () => {
                     <ListItemIcon sx={{ color: "#fff", fontSize: "20px" }}>
                       <PeopleIcon />
                     </ListItemIcon>
-                    <ListItemText>Community</ListItemText>
+                    <ListItemText>Task</ListItemText>
                   </ListItemButton>
                 </Link>
-                <Link to="/Help">
+                <Link to="/Courseperformance">
                   <ListItemButton
                     sx={{
                       color: "white",
@@ -164,10 +164,10 @@ const DashboardNavbar = () => {
                     <ListItemIcon sx={{ color: "#fff", fontSize: "20px" }}>
                       <HelpCenterIcon />
                     </ListItemIcon>
-                    <ListItemText>Help</ListItemText>
+                    <ListItemText>Course Performance</ListItemText>
                   </ListItemButton>
                 </Link>
-                <Link to="/Feedback">
+                <Link to="/Certificate">
                   <ListItemButton
                     sx={{
                       color: "white",
@@ -182,27 +182,10 @@ const DashboardNavbar = () => {
                     <ListItemIcon sx={{ color: "#fff", fontSize: "20px" }}>
                       <FeedbackIcon />
                     </ListItemIcon>
-                    <ListItemText>Feedback</ListItemText>
+                    <ListItemText>Certificate</ListItemText>
                   </ListItemButton>
                 </Link>
-                <Link to="/FAQ">
-                  <ListItemButton
-                    sx={{
-                      color: "white",
-                      mr: 2,
-                      pl: 5,
-                      " 	&.Mui-selected": {
-                        bgcolor: "rgba(217, 217, 217, 0.1)",
-                        borderLeft: "4px solid #fff",
-                      },
-                    }}
-                  >
-                    <ListItemIcon sx={{ color: "#fff", fontSize: "20px" }}>
-                      <QuizIcon />
-                    </ListItemIcon>
-                    <ListItemText>FAQ</ListItemText>
-                  </ListItemButton>
-                </Link>
+               
               </List>
             </Box>
             <Box
@@ -210,7 +193,7 @@ const DashboardNavbar = () => {
                 mt: -1
             }}
             >
-                <Link to="/Home">
+                <Link to="/">
                   <ListItemButton
                     sx={{
                       color: "white",

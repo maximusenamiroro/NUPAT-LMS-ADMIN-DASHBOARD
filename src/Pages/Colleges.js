@@ -20,7 +20,7 @@ const Colleges = () => {
     <>
       <Box sx={{ width: "100%", paddingBottom: "40px" }}>
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-          <Grid item xs={6}>
+          <Grid item lg={6} md={6} xs={12}>
             <Item className="border-primary border-2">
               <Box
                 sx={{
@@ -58,7 +58,7 @@ const Colleges = () => {
               </div>
             </Item>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item lg={6} md={6} xs={12}>
             <Item className="">
               <Box
                 sx={{
@@ -98,7 +98,7 @@ const Colleges = () => {
               </div>
             </Item>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item lg={6} md={6} xs={12}>
             <Item className="">
               <Box
                 sx={{
@@ -138,7 +138,7 @@ const Colleges = () => {
               </div>
             </Item>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item lg={6} md={6} xs={12}>
             <Item className="">
               <Box
                 sx={{

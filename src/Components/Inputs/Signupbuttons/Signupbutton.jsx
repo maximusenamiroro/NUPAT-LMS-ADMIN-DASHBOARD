@@ -34,7 +34,7 @@ const Signupbuttons = () => {
           class="
       w-full
        p-6
-      py-8
+      py-5
        bg-none
       text-black
       font-xl
@@ -47,14 +47,15 @@ const Signupbuttons = () => {
       active:bg-blue-800 active:shadow-lg
       transition
       duration-150
-      ease-in-out"
-          style={{ background: "none", border: "1px solid #131E47" }}
+      ease-in-out
+       border-[1px]
+       border-primary"
         >
           Sign up with google
         </button>
       </div>
 
-      <div class="block space-y-4 mt-5 hidden">
+      <div class="xs:block space-y-4 mt-5 hidden">
       <a href="/dashboard">
         <button
           type="submit"

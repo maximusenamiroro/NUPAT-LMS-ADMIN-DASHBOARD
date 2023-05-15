@@ -28,7 +28,7 @@ const Course = () => {
 
           {/* search */}
 
-          <div>
+          <div className="xs:hidden">
             <div className="filter">
               <form onsubmit="event.preventDefault();" role="search">
                 <input id="search" type="search" placeholder="Search..." />
@@ -39,7 +39,7 @@ const Course = () => {
 
           <div>
             <Link to="/NewCourse">
-              <button className="py-2 px-4 bg-primary text-white font-semibold rounded-md">
+              <button className="py-2 px-4 bg-primary text-white font-semibold rounded-md xs:py-1 mb-1">
                 Add new course
               </button>
             </Link>

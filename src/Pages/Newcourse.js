@@ -11,7 +11,7 @@ import ThirdInput from '../Components/Stepperinputs/thirdinputs'
 import ForthInput from '../Components/Stepperinputs/fourthinput'
 
 
-const steps = ['Select campaign settings', 'Create an ad group', 'Create an ad', 'Create an ad'];
+const steps = ['Course Details', 'Module content', 'Lesson Content', 'Preview'];
 
 export default function Newcourse() {
   const [activeStep, setActiveStep] = React.useState(0);
@@ -114,7 +114,10 @@ export default function Newcourse() {
               </Button>
             )}
 
-            <Button onClick={handleNext}>
+            <Button sx={{
+              backgroundColor:"#131E47",
+              color: "#fff"
+            }} onClick={handleNext}>
               {activeStep === steps.length - 1 ? 'Finish' : 'Next'}
             </Button>
           </Box>

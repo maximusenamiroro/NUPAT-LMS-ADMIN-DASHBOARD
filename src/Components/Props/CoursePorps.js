@@ -35,11 +35,11 @@ function CoursePorps(props){
                 }}
               >
                 <img src={Coursepic} alt="" />
-                <img className="absolute pl-52 pb-12" src={Moreicon} alt="" />
+                <img className="absolute pl-52 pb-12 xs:pl-36" src={Moreicon} alt="" />
               </Box>
               <div className="flex text-center mt-7">
                 <img className=" pr-2 ml-3 w-8 h-5" src={Hierarchy} alt="" />
-                <p className=" text-base font-semibold text-primary">
+                <p className=" text-base font-semibold text-primary xs:font-normal  ">
                   Product Management
                 </p>
               </div>
@@ -74,7 +74,7 @@ function CoursePorps(props){
                 }}
               >
                 <img src={Coursepic} alt="" />
-                <img className="absolute pl-52 pb-12" src={Moreicon} alt="" />
+                <img className="absolute pl-52 pb-12 xs:pl-36" src={Moreicon} alt="" />
               </Box>
               <div className="flex text-center mt-7">
                 <img className=" pr-2 ml-3 w-8 h-5" src={Hierarchy} alt="" />
@@ -113,7 +113,7 @@ function CoursePorps(props){
                 }}
               >
                 <img src={Coursepic} alt="" />
-                <img className="absolute pl-52 pb-12" src={Moreicon} alt="" />
+                <img className="absolute pl-52 pb-12 xs:pl-36" src={Moreicon} alt="" />
               </Box>
               <div className="flex text-center mt-7">
                 <img className=" pr-2 ml-3 w-8 h-5" src={Hierarchy} alt="" />
@@ -152,7 +152,7 @@ function CoursePorps(props){
                 }}
               >
                 <img src={Coursepic} alt="" />
-                <img className="absolute pl-52 pb-12" src={Moreicon} alt="" />
+                <img className="absolute pl-52 pb-12 xs:pl-36" src={Moreicon} alt="" />
               </Box>
               <div className="flex text-center mt-7">
                 <img className=" pr-2 ml-3 w-8 h-5" src={Hierarchy} alt="" />
@@ -191,7 +191,7 @@ function CoursePorps(props){
                 }}
               >
                 <img src={Coursepic} alt="" />
-                <img className="absolute pl-52 pb-12" src={Moreicon} alt="" />
+                <img className="absolute pl-52 pb-12 xs:pl-36" src={Moreicon} alt="" />
               </Box>
               <div className="flex text-center mt-7">
                 <img className=" pr-2 ml-3 w-8 h-5" src={Hierarchy} alt="" />
@@ -229,46 +229,7 @@ function CoursePorps(props){
                 }}
               >
                 <img src={Coursepic} alt="" />
-                <img className="absolute pl-52 pb-12" src={Moreicon} alt="" />
-              </Box>
-              <div className="flex text-center mt-7">
-                <img className=" pr-2 ml-3 w-8 h-5" src={Hierarchy} alt="" />
-                <p className=" text-base font-semibold text-primary">
-                  Product Management
-                </p>
-              </div>
-              <div className="flex justify-between px-2">
-                <div className="flex font-semibold text-sm text-Nupatblack">
-                  <img className="h-4 mt-[2px]" src={Module} alt="" />
-                  <p className="ml-1">Modules</p>
-                </div>
-                <div className="flex font-semibold text-sm text-Nupatblack">
-                  <img className="h-3 mr-1 mt-1" src={Add} alt="" />
-                  <p>2000 Students</p>
-                </div>
-              </div>
-              <div className="flex px-2 mt-2 pb-10">
-               <img src={Clock} alt=""/>
-               <p className="ml-2">Duration</p>
-              </div>
-            </Item>
-          </Grid>
-
-
-
-          <Grid item xs={6} md={4} lg={3}>
-            <Item className="border-primary border-2">
-              <Box
-                sx={{
-                  display: "flex",
-                  marginTop: "16px",
-                  gap: "2em",
-                  height: "66px",
-                  alignItems: "center",
-                }}
-              >
-                <img src={Coursepic} alt="" />
-                <img className="absolute pl-52 pb-12" src={Moreicon} alt="" />
+                <img className="absolute pl-52 pb-12 xs:pl-36" src={Moreicon} alt="" />
               </Box>
               <div className="flex text-center mt-7">
                 <img className=" pr-2 ml-3 w-8 h-5" src={Hierarchy} alt="" />
@@ -307,7 +268,46 @@ function CoursePorps(props){
                 }}
               >
                 <img src={Coursepic} alt="" />
-                <img className="absolute pl-52 pb-12" src={Moreicon} alt="" />
+                <img className="absolute pl-52 pb-12 xs:pl-36" src={Moreicon} alt="" />
+              </Box>
+              <div className="flex text-center mt-7">
+                <img className=" pr-2 ml-3 w-8 h-5" src={Hierarchy} alt="" />
+                <p className=" text-base font-semibold text-primary">
+                  Product Management
+                </p>
+              </div>
+              <div className="flex justify-between px-2">
+                <div className="flex font-semibold text-sm text-Nupatblack">
+                  <img className="h-4 mt-[2px]" src={Module} alt="" />
+                  <p className="ml-1">Modules</p>
+                </div>
+                <div className="flex font-semibold text-sm text-Nupatblack">
+                  <img className="h-3 mr-1 mt-1" src={Add} alt="" />
+                  <p>2000 Students</p>
+                </div>
+              </div>
+              <div className="flex px-2 mt-2 pb-10">
+               <img src={Clock} alt=""/>
+               <p className="ml-2">Duration</p>
+              </div>
+            </Item>
+          </Grid>
+
+
+
+          <Grid item xs={6} md={4} lg={3}>
+            <Item className="border-primary border-2">
+              <Box
+                sx={{
+                  display: "flex",
+                  marginTop: "16px",
+                  gap: "2em",
+                  height: "66px",
+                  alignItems: "center",
+                }}
+              >
+                <img src={Coursepic} alt="" />
+                <img className="absolute pl-52 pb-12 xs:pl-36" src={Moreicon} alt="" />
               </Box>
               <div className="flex text-center mt-7">
                 <img className=" pr-2 ml-3 w-8 h-5" src={Hierarchy} alt="" />
@@ -345,7 +345,7 @@ function CoursePorps(props){
                 }}
               >
                 <img src={Coursepic} alt="" />
-                <img className="absolute pl-52 pb-12" src={Moreicon} alt="" />
+                <img className="absolute pl-52 pb-12 xs:pl-36" src={Moreicon} alt="" />
               </Box>
               <div className="flex text-center mt-7">
                 <img className=" pr-2 ml-3 w-8 h-5" src={Hierarchy} alt="" />
@@ -383,7 +383,7 @@ function CoursePorps(props){
                 }}
               >
                 <img src={Coursepic} alt="" />
-                <img className="absolute pl-52 pb-12" src={Moreicon} alt="" />
+                <img className="absolute pl-52 pb-12 xs:pl-36" src={Moreicon} alt="" />
               </Box>
               <div className="flex text-center mt-7">
                 <img className=" pr-2 ml-3 w-8 h-5" src={Hierarchy} alt="" />
@@ -419,7 +419,7 @@ function CoursePorps(props){
                 }}
               >
                 <img src={Coursepic} alt="" />
-                <img className="absolute pl-52 pb-12" src={Moreicon} alt="" />
+                <img className="absolute pl-52 pb-12 xs:pl-36" src={Moreicon} alt="" />
               </Box>
               <div className="flex text-center mt-7">
                 <img className=" pr-2 ml-3 w-8 h-5" src={Hierarchy} alt="" />
@@ -455,7 +455,7 @@ function CoursePorps(props){
                 }}
               >
                 <img src={Coursepic} alt="" />
-                <img className="absolute pl-52 pb-12" src={Moreicon} alt="" />
+                <img className="absolute pl-52 pb-12 xs:pl-36" src={Moreicon} alt="" />
               </Box>
               <div className="flex text-center mt-7">
                 <img className=" pr-2 ml-3 w-8 h-5" src={Hierarchy} alt="" />
